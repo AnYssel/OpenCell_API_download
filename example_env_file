@@ -1,0 +1,24 @@
+# .env file for OpenCellID API access
+# Save this file as ".env" in the same directory as your Python script
+
+# OpenCellID API Key
+# Get your free API key from: https://opencellid.org/
+# 1. Register for an account at https://opencellid.org/
+# 2. Go to your account settings/API section
+# 3. Generate or copy your API token
+# 4. Replace "your_actual_api_key_here" with your real API key
+OPENCELLID_API_KEY=your_actual_api_key_here
+
+# Example of what a real API key might look like (this is NOT a real key):
+# OPENCELLID_API_KEY=pk.abc123def456ghi789jkl012mno345pqr678stu901
+
+# Additional optional environment variables you might want to add:
+
+# Default request timeout (in seconds)
+# REQUEST_TIMEOUT=30
+
+# Default API rate limit delay (in seconds between requests)
+# API_DELAY=1
+
+# Log level for debugging
+# LOG_LEVEL=INFO
